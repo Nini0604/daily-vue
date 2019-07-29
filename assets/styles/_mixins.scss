@@ -1,0 +1,29 @@
+@mixin maxWidth320 {
+  @media screen and (max-width: 320px) {
+    @content;
+  }
+}
+
+@mixin maxWidth360 {
+  @media screen and (max-width: 360px) {
+    @content;
+  }
+}
+
+@mixin minWidth768 {
+  @media screen and (min-width: 768px) {
+    @content;
+  }
+}
+
+@mixin minWidth1200 {
+  @media screen and (min-width: 1200px) {
+    @content;
+  }
+}
+
+@mixin minWidth1920 {
+  @media screen and (min-width: 1920px) {
+    @content;
+  }
+}

@@ -68,9 +68,13 @@ export default {
     padding: 0 4px;
     font-size: 16px;
     line-height: 30px;
-    cursor: pointer;
-    &:hover {
-      background-color: rgba(55, 53, 47, 0.08);
+    a {
+      display: block;
+      width: 100%;
+      height: 100%;
+      &:hover {
+        background-color: rgba(55, 53, 47, 0.08);
+      }
     }
   }
   &__text {

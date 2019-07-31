@@ -1,3 +1,5 @@
+const offOnDev = (process.env.NODE_ENV === 'production') ? 'error' : 'off'
+
 module.exports = {
   root: true,
   env: {
@@ -8,14 +10,46 @@ module.exports = {
     parser: 'babel-eslint'
   },
   extends: [
-    // https://github.com/vuejs/eslint-plugin-vue#priority-a-essential-error-prevention
-    // consider switching to `plugin:vue/strongly-recommended` or `plugin:vue/recommended` for stricter rules.
-    'plugin:vue/essential'
-  ],
-  // required to lint *.vue files
-  plugins: [
-    'vue'
+    '@nuxtjs',
+    'plugin:nuxt/recommended'
   ],
   // add your custom rules here
-  rules: {}
+  rules: {
+    'no-console': offOnDev,
+    'prefer-arrow-callback': 'error',
+    'arrow-body-style': ['error', 'as-needed'],
+    'object-shorthand': ['error', 'always'],
+    'func-style': ['error', 'declaration', { 'allowArrowFunctions': true }],
+    'vue/attribute-hyphenation': ['error', 'never'],
+    'vue/max-attributes-per-line': ['error', {
+      'singleline': 3,
+      'multiline': {
+        'max': 1,
+        'allowFirstLine': false
+      }
+    }],
+    'vue/order-in-components': ['error', {
+      'order': [
+        'el',
+        'name',
+        'parent',
+        'functional',
+        ['delimiters', 'comments'],
+        ['components', 'directives', 'filters'],
+        'extends',
+        'mixins',
+        'inheritAttrs',
+        'model',
+        ['props', 'propsData'],
+        'asyncData',
+        'data',
+        'computed',
+        'watch',
+        'LIFECYCLE_HOOKS',
+        'methods',
+        ['template', 'render'],
+        'renderError'
+      ]
+    }]
+  }
 }

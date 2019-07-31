@@ -8,5 +8,72 @@
 </template>
 
 <style>
-</style>
+.VueToNuxtLogo {
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  width: 50px;
+  height: 36px;
+  animation: turn 2s linear forwards 1s;
+  transform: rotateX(180deg);
+}
 
+.Triangle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+}
+
+.Triangle--one {
+  border-left: 21px solid transparent;
+  border-right: 21px solid transparent;
+  border-bottom: 36px solid #41B883;
+}
+
+.Triangle--two {
+  top: 6px;
+  left: 7px;
+  animation: goright 0.5s linear forwards 3.5s;
+  border-left: 17.5px solid transparent;
+  border-right: 17.5px solid transparent;
+  border-bottom: 30px solid #3B8070;
+}
+
+.Triangle--three {
+  top: 12px;
+  left: 7px;
+  animation: goright 0.5s linear forwards 3.5s;
+  border-left: 14px solid transparent;
+  border-right: 14px solid transparent;
+  border-bottom: 24px solid #35495E;
+}
+
+.Triangle--four {
+  top: 24px;
+  left: 14px;
+  animation: godown 0.5s linear forwards 3s;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-bottom: 12px solid #fff;
+}
+
+@keyframes turn {
+  100% {
+    transform: rotateX(0deg);
+  }
+}
+
+@keyframes godown {
+  100% {
+    top: 36px;
+  }
+}
+
+@keyframes goright {
+  100% {
+    left: 14px;
+  }
+}
+</style>

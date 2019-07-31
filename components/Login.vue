@@ -1,33 +1,31 @@
 <template>
-  <filedset>
-    <legend class="loginText">로그인</legend>
-    <ul class="loginList">
-      <li class="loginList__item">
-        <label class="loginList__item__text">아이디</label>
-        <input
-          v-model="user.id"
-          :class="{hasError:hasError}"
-          class="loginList__item__input"
-          type="text"
-          placeholder="아이디를 입력해주세요"
-        >
-      </li>
-      <li class="loginList__item">
-        <label class="loginList__item__text">비밀번호</label>
-        <input
-          v-model="user.password"
-          :class="{hasError:hasError}"
-          class="loginList__item__input"
-          type="password"
-          placeholder="비밀번호를 입력해주세요"
-        >
-      </li>
-    </ul>
-  </filedset>
+  <ul class="loginList">
+    <li class="loginList__item">
+      <label class="loginList__item__text">아이디</label>
+      <input
+        v-model="user.id"
+        :class="{hasError:hasError}"
+        class="loginList__item__input"
+        type="text"
+        placeholder="아이디를 입력해주세요"
+      >
+    </li>
+    <li class="loginList__item">
+      <label class="loginList__item__text">비밀번호</label>
+      <input
+        v-model="user.password"
+        :class="{hasError:hasError}"
+        class="loginList__item__input"
+        type="password"
+        placeholder="비밀번호를 입력해주세요"
+      >
+    </li>
+  </ul>
 </template>
 
 <script>
 export default {
+  name: 'Login',
   props: {
     user: {
       type: Object,
@@ -42,9 +40,6 @@ export default {
 </script>
 
 <style lang="scss">
-.loginText {
-  display: none;
-}
 .loginList {
   &__item {
     position: relative;

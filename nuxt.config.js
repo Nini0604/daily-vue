@@ -14,15 +14,15 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-  title: 'daily-vue',
-  meta: [
-    { charset: 'utf-8' },
-    { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-    { hid: 'description', name: 'description', content: 'Nuxt.js project' }
-  ],
-  link: [
-    { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-  ]
+    title: 'daily-vue',
+    meta: [
+      { charset: 'utf-8' },
+      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      { hid: 'description', name: 'description', content: 'Nuxt.js project' }
+    ],
+    link: [
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+    ]
   },
   /*
   ** Customize the progress-bar color
@@ -35,7 +35,11 @@ module.exports = {
   css: [
     '~assets/styles/_base.scss'
   ],
-
+  styleResources: {
+    scss: [
+      './assets/styles/_mixins.scss'
+    ]
+  },
   /*
   ** Plugins to load before mounting the App
   */
@@ -86,5 +90,3 @@ module.exports = {
     }
   }
 }
-
-

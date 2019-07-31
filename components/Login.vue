@@ -5,21 +5,22 @@
       <li class="loginList__item">
         <label class="loginList__item__text">아이디</label>
         <input
-          class="loginList__item__input"
-          v-model="user.id" type="text"
+          v-model="user.id"
           :class="{hasError:hasError}"
+          class="loginList__item__input"
+          type="text"
           placeholder="아이디를 입력해주세요"
         >
       </li>
       <li class="loginList__item">
         <label class="loginList__item__text">비밀번호</label>
         <input
-          class="loginList__item__input"
           v-model="user.password"
-          type="password"
           :class="{hasError:hasError}"
+          class="loginList__item__input"
+          type="password"
           placeholder="비밀번호를 입력해주세요"
-        />
+        >
       </li>
     </ul>
   </filedset>
@@ -32,7 +33,10 @@ export default {
       type: Object,
       required: true
     },
-    hasError: Boolean
+    hasError: {
+      type: Boolean,
+      required: true
+    }
   }
 }
 </script>

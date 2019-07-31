@@ -1,6 +1,7 @@
 module.exports = {
   'plugins': [
-    'stylelint-order'
+    'stylelint-order',
+    'stylelint-scss'
   ],
   'processors': ['@mapbox/stylelint-processor-arbitrary-tags'],
   'extends': 'stylelint-config-recommended-scss',
@@ -14,6 +15,9 @@ module.exports = {
     'declaration-colon-space-after': 'always',
     'declaration-colon-space-before': 'never',
     'block-opening-brace-space-before': 'always',
+    'function-comma-space-after': 'always',
+    'scss/at-function-parentheses-space-before': 'always',
+    'scss/at-mixin-parentheses-space-before': 'never',
     'indentation': 2,
     'order/properties-order': [
       'display',

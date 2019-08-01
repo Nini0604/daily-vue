@@ -1,0 +1,240 @@
+<template>
+  <section>
+    <div>
+      <strong>default 버튼</strong>
+      <AppButton
+        type="default"
+        size="default"
+      >
+        Default
+      </AppButton>
+      <AppButton
+        type="primary"
+        size="default"
+      >
+        Primary
+      </AppButton>
+      <AppButton
+        type="success"
+        size="default"
+      >
+        Success
+      </AppButton>
+      <AppButton
+        type="info"
+        size="default"
+      >
+        Info
+      </AppButton>
+      <AppButton
+        type="warning"
+        size="default"
+      >
+        Warning
+      </AppButton>
+      <AppButton
+        type="danger"
+        size="default"
+      >
+        Danger
+      </AppButton>
+    </div>
+    <div>
+      <strong>plain 버튼</strong>
+      <AppButton
+        type="default"
+        size="default"
+      >
+        Default
+      </AppButton>
+      <AppButton
+        plain="primary"
+        size="default"
+      >
+        Primary
+      </AppButton>
+      <AppButton
+        plain="success"
+        size="default"
+      >
+        Success
+      </AppButton>
+      <AppButton
+        plain="info"
+        size="default"
+      >
+        Info
+      </AppButton>
+      <AppButton
+        plain="warning"
+        size="default"
+      >
+        Warning
+      </AppButton>
+      <AppButton
+        plain="danger"
+        size="default"
+      >
+        Danger
+      </AppButton>
+    </div>
+    <div>
+      <strong>round 버튼</strong>
+      <AppButton
+        type="default"
+        size="default"
+        round="default"
+      >
+        Default
+      </AppButton>
+      <AppButton
+        type="primary"
+        size="default"
+        round="default"
+      >
+        Primary
+      </AppButton>
+      <AppButton
+        type="success"
+        size="default"
+        round="default"
+      >
+        Success
+      </AppButton>
+      <AppButton
+        type="info"
+        size="default"
+        round="default"
+      >
+        Info
+      </AppButton>
+      <AppButton
+        type="warning"
+        size="default"
+        round="default"
+      >
+        Warning
+      </AppButton>
+      <AppButton
+        type="danger"
+        size="default"
+        round="default"
+      >
+        Danger
+      </AppButton>
+    </div>
+    <div>
+      <strong>disabled 버튼</strong>
+      <AppButton
+        :disabled="true"
+        type="default"
+        size="default"
+      >
+        Default
+      </AppButton>
+      <AppButton
+        :disabled="true"
+        type="primary"
+        size="default"
+      >
+        Primary
+      </AppButton>
+      <AppButton
+        :disabled="true"
+        type="success"
+        size="default"
+      >
+        Success
+      </AppButton>
+      <AppButton
+        :disabled="true"
+        type="info"
+        size="default"
+      >
+        Info
+      </AppButton>
+      <AppButton
+        :disabled="true"
+        type="warning"
+        size="default"
+      >
+        Warning
+      </AppButton>
+      <AppButton
+        :disabled="true"
+        type="danger"
+        size="default"
+      >
+        Danger
+      </AppButton>
+    </div>
+    <div>
+      <strong>버튼 사이즈</strong>
+      <div>
+        <AppButton
+          type="default"
+          size="default"
+        >
+          Default
+        </AppButton>
+        <AppButton
+          type="default"
+          size="medium"
+        >
+          Medium
+        </AppButton>
+        <AppButton
+          type="default"
+          size="small"
+        >
+          Small
+        </AppButton>
+      </div>
+      <div>
+        <AppButton
+          type="default"
+          size="default"
+          round="default"
+        >
+          Default
+        </AppButton>
+        <AppButton
+          type="default"
+          size="medium"
+          round="default"
+        >
+          Medium
+        </AppButton>
+        <AppButton
+          type="default"
+          size="small"
+          round="default"
+        >
+          Small
+        </AppButton>
+      </div>
+    </div>
+  </section>
+</template>
+
+<script>
+import AppButton from '~/components/AppButton.vue'
+
+export default {
+  components: {
+    AppButton
+  }
+}
+</script>
+
+<style scoped lang="scss">
+  section {
+    div {
+      margin: 10px 0;
+      strong {
+        display: block;
+      }
+    }
+  }
+</style>
+a

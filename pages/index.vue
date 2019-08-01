@@ -13,6 +13,11 @@
             <span class="links__text">로그인 validation</span><span class="links__date">190731</span>
           </nuxt-link>
         </li>
+        <li>
+          <nuxt-link to="/190801">
+            <span class="links__text">버튼 component</span><span class="links__date">190801</span>
+          </nuxt-link>
+        </li>
       </ul>
     </div>
   </section>

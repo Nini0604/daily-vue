@@ -1,7 +1,11 @@
 <template>
   <div class="login">
-    <h2 class="login__title">LOGIN</h2>
-    <p class="login__text">아이디와 비밀번호를 입력해주세요.</p>
+    <h2 class="login__title">
+      LOGIN
+    </h2>
+    <p class="login__text">
+      아이디와 비밀번호를 입력해주세요.
+    </p>
     <Login :user="user" :hasError="hasError" />
     <p class="login__text--error">
       {{ errorMessage }}

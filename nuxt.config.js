@@ -33,7 +33,7 @@ module.exports = {
   ** Global CSS
   */
   css: [
-    '~assets/styles/_base.scss'
+    '~assets/styles/_reset.scss'
   ],
   styleResources: {
     scss: [

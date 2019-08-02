@@ -2,7 +2,10 @@
   <section class="container">
     <div>
       <div class="title">
-        <app-logo /><h1 class="title__text">Daily Vue</h1>
+        <app-logo />
+        <h1 class="title__text">
+          Daily Vue
+        </h1>
       </div>
       <p class="text">
         매일 매일 예제 하나씩 구현해보는 vue daily project
@@ -10,12 +13,17 @@
       <ul class="links">
         <li>
           <nuxt-link to="/190731">
-            <span class="links__text">로그인 validation</span><span class="links__date">190731</span>
+            <span class="links__text">로그인 Validation</span><span class="links__date">190731</span>
           </nuxt-link>
         </li>
         <li>
           <nuxt-link to="/190801">
-            <span class="links__text">버튼 component</span><span class="links__date">190801</span>
+            <span class="links__text">버튼 테마 Component</span><span class="links__date">190801</span>
+          </nuxt-link>
+        </li>
+        <li>
+          <nuxt-link to="/190802">
+            <span class="links__text">네비게이션 메뉴</span><span class="links__date">190802</span>
           </nuxt-link>
         </li>
       </ul>

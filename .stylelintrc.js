@@ -3,7 +3,6 @@ module.exports = {
     'stylelint-order',
     'stylelint-scss'
   ],
-  'processors': ['@mapbox/stylelint-processor-arbitrary-tags'],
   'extends': 'stylelint-config-recommended-scss',
   'rules': {
     'function-url-quotes': 'never',

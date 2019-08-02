@@ -2,7 +2,10 @@
   <section class="container">
     <div>
       <div class="title">
-        <app-logo /><h1 class="title__text">Daily Vue</h1>
+        <app-logo />
+        <h1 class="title__text">
+          Daily Vue
+        </h1>
       </div>
       <p class="text">
         매일 매일 예제 하나씩 구현해보는 vue daily project

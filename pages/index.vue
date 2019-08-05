@@ -26,6 +26,11 @@
             <span class="links__text">네비게이션 메뉴</span><span class="links__date">190802</span>
           </nuxt-link>
         </li>
+        <li>
+          <nuxt-link to="/190803">
+            <span class="links__text">Inline Editor</span><span class="links__date">190803</span>
+          </nuxt-link>
+        </li>
       </ul>
     </div>
   </section>

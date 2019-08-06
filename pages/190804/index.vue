@@ -66,11 +66,13 @@ export default {
   color: #7d9098;
   &__select {
     display: inline-block;
-    padding: 5px 10px;
+    height: 36px;
+    padding: 0 10px;
     margin-left: 5px;
     background-color: #c4d7e0;
     font-size: 18px;
     color: #fff;
+    line-height: 37px;
     border-radius: 2px;
     text-transform: uppercase;
   }

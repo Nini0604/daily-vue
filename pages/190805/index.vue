@@ -53,6 +53,7 @@ export default {
     border-radius: 3px;
     &__input {
       width: 100%;
+      height: 36px;
       border: none;
       border-radius: 3px;
       font-size: 16px;

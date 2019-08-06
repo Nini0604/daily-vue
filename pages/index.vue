@@ -22,8 +22,8 @@
           </nuxt-link>
         </li>
         <li>
-          <nuxt-link to="/190804">
-            <span class="links__text">네비게이션 메뉴</span><span class="links__date">190804</span>
+          <nuxt-link to="/190802">
+            <span class="links__text">네비게이션 메뉴</span><span class="links__date">190802</span>
           </nuxt-link>
         </li>
         <li>

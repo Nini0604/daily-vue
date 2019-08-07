@@ -23,7 +23,7 @@
         </li>
         <li>
           <nuxt-link to="/190802">
-            <span class="links__text">네비게이션 메뉴</span><span class="links__date">190802</span>
+            <span class="links__text">Navigation Menu</span><span class="links__date">190802</span>
           </nuxt-link>
         </li>
         <li>
@@ -34,6 +34,11 @@
         <li>
           <nuxt-link to="/190806">
             <span class="links__text">Order Calculator</span><span class="links__date">190806</span>
+          </nuxt-link>
+        </li>
+        <li>
+          <nuxt-link to="/190807">
+            <span class="links__text">Instant Search</span><span class="links__date">190807</span>
           </nuxt-link>
         </li>
       </ul>

@@ -41,6 +41,11 @@
             <span class="links__text">Instant Search</span><span class="links__date">190807</span>
           </nuxt-link>
         </li>
+        <li>
+          <nuxt-link to="/190811">
+            <span class="links__text">Switchable Grid</span><span class="links__date">190811</span>
+          </nuxt-link>
+        </li>
       </ul>
     </div>
   </section>

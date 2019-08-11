@@ -27,7 +27,7 @@ export default {
 }
 </script>
 
-<style scoped lang="scss">
+<style lang="scss">
 .articleItem {
   overflow: hidden;
   height: 60px;
@@ -40,10 +40,12 @@ export default {
     height: 100%;
   }
   &__image {
+    display: block;
     position: absolute;
     width: 60px;
     height: 60px;
     border: none;
+    object-fit: cover;
   }
   &__title {
     display: table-cell;

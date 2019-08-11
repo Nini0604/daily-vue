@@ -1,5 +1,5 @@
 <template>
-  <ul>
+  <ul :class="{'gridList':isGridStyled}">
     <FilteredArticlesItem
       v-for="item in items"
       :key="item.id"
@@ -19,6 +19,10 @@ export default {
     items: {
       type: Array,
       required: true
+    },
+    isGridStyled: {
+      type: Boolean,
+      required: false
     }
   }
 }

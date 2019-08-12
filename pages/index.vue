@@ -46,6 +46,11 @@
             <span class="links__text">Switchable Grid</span><span class="links__date">190811</span>
           </nuxt-link>
         </li>
+        <li>
+          <nuxt-link to="/190812">
+            <span class="links__text">Category List Filter</span><span class="links__date">190812</span>
+          </nuxt-link>
+        </li>
       </ul>
     </div>
   </section>

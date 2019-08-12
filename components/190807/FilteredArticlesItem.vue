@@ -9,7 +9,7 @@
 
 <script>
 export default {
-  name: 'FilterdArticlesItem',
+  name: 'FilteredArticlesItem',
   props: {
     title: {
       type: String,

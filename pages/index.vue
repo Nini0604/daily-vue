@@ -51,6 +51,11 @@
             <span class="links__text">Category List Filter</span><span class="links__date">190812</span>
           </nuxt-link>
         </li>
+        <li>
+          <nuxt-link to="/190815">
+            <span class="links__text">카드 Component</span><span class="links__date">190815</span>
+          </nuxt-link>
+        </li>
       </ul>
     </div>
   </section>

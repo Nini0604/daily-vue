@@ -56,6 +56,11 @@
             <span class="links__text">카드 Component</span><span class="links__date">190815</span>
           </nuxt-link>
         </li>
+        <li>
+          <nuxt-link to="/200118">
+            <span class="links__text">구구단</span><span class="links__date">200118</span>
+          </nuxt-link>
+        </li>
       </ul>
     </div>
   </section>

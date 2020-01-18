@@ -61,6 +61,11 @@
             <span class="links__text">구구단</span><span class="links__date">200118</span>
           </nuxt-link>
         </li>
+        <li>
+          <nuxt-link to="/200119">
+            <span class="links__text">숫자야구</span><span class="links__date">200119</span>
+          </nuxt-link>
+        </li>
       </ul>
     </div>
   </section>

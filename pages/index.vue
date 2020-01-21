@@ -71,6 +71,11 @@
             <span class="links__text">가위바위보 게임</span><span class="links__date">200120</span>
           </nuxt-link>
         </li>
+        <li>
+          <nuxt-link to="/200121">
+            <span class="links__text">로또</span><span class="links__date">200121</span>
+          </nuxt-link>
+        </li>
       </ul>
     </div>
   </section>

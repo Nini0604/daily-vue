@@ -11,7 +11,6 @@
         입력
       </button>
     </form>
-    {{ resultNumber }}
     <p>시도:{{ triedValues.length }}</p>
     <p v-if="showResult">
       <ul>
@@ -52,6 +51,7 @@ export default {
         const randomNum = Math.floor(Math.random() * (9 - i))
         resultArray.push(numberArray.splice(randomNum, 1)[0])
       }
+      console.log(resultArray)
       return resultArray.join().replace(/,/g, '')
     },
     resetData() {

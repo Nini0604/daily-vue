@@ -57,7 +57,7 @@
           </nuxt-link>
         </li>
         <li class="text__desc">
-          회사 홈페이지 진행 1908 ~ 1912<a class="link__company" href="https://marketdesigners.com/" target="_blank">MarketDesigners</a>
+          회사 소개 홈페이지 진행 1908 ~ 1912<a class="link__company" href="https://marketdesigners.com/" target="_blank">MarketDesigners</a>
         </li>
         <li>
           <nuxt-link to="/200118" class="link__text">

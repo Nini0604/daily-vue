@@ -84,6 +84,11 @@
             <span>틱택토</span><span class="link__date">200123</span>
           </nuxt-link>
         </li>
+        <li>
+          <nuxt-link to="/200124" class="link__text">
+            <span>틱택토-vuex</span><span class="link__date">200124</span>
+          </nuxt-link>
+        </li>
       </ul>
     </div>
   </section>

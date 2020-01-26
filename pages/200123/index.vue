@@ -1,7 +1,7 @@
 <template>
   <div>
-    <TableComponent :tableData="tableData" />
     <p>{{ turn }}님 차례입니다</p>
+    <TableComponent :tableData="tableData" />
     <p v-if="winner">
       {{ winner }} 님이 승리하셨습니다
     </p>

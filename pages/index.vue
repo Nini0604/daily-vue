@@ -12,47 +12,47 @@
       </p>
       <ul class="link">
         <li>
-          <nuxt-link to="/190731" class="link__text">
+          <nuxt-link to="/loginValidate" class="link__text">
             로그인 Validation<span class="link__date">190731</span>
           </nuxt-link>
         </li>
         <li>
-          <nuxt-link to="/190801" class="link__text">
+          <nuxt-link to="/buttonTheme" class="link__text">
             버튼 테마 Component<span class="link__date">190801</span>
           </nuxt-link>
         </li>
         <li>
-          <nuxt-link to="/190802"  class="link__text">
+          <nuxt-link to="/navMenu" class="link__text">
             Navigation Menu<span class="link__date">190802</span>
           </nuxt-link>
         </li>
         <li>
-          <nuxt-link to="/190805" class="link__text">
+          <nuxt-link to="/inlineEditor" class="link__text">
             Inline Editor<span class="link__date">190805</span>
           </nuxt-link>
         </li>
         <li>
-          <nuxt-link to="/190806" class="link__text">
+          <nuxt-link to="/orderCalculator" class="link__text">
             Order Calculator<span class="link__date">190806</span>
           </nuxt-link>
         </li>
         <li>
-          <nuxt-link to="/190807" class="link__text">
-            Instant Search<span class="link__date">190807</span>
+          <nuxt-link to="/filteredSearh" class="link__text">
+            Filtered Search<span class="link__date">190807</span>
           </nuxt-link>
         </li>
         <li>
-          <nuxt-link to="/190811" class="link__text">
+          <nuxt-link to="/switchStyled" class="link__text">
             Switchable Grid<span class="link__date">190811</span>
           </nuxt-link>
         </li>
         <li>
-          <nuxt-link to="/190812" class="link__text">
+          <nuxt-link to="/filteredCatagory" class="link__text">
             Category List Filter<span class="link__date">190812</span>
           </nuxt-link>
         </li>
         <li>
-          <nuxt-link to="/190815" class="link__text">
+          <nuxt-link to="/recruitCardList" class="link__text">
             카드 Component<span class="link__date">190815</span>
           </nuxt-link>
         </li>
@@ -60,33 +60,33 @@
           회사 소개 홈페이지 진행 1908 ~ 1912<a class="link__company" href="https://marketdesigners.com/" target="_blank">MarketDesigners</a>
         </li>
         <li>
-          <nuxt-link to="/200118" class="link__text">
+          <nuxt-link to="/gugudan" class="link__text">
             구구단<span class="link__date">200118</span>
           </nuxt-link>
         </li>
         <li>
-          <nuxt-link to="/200119" class="link__text">
+          <nuxt-link to="/numberBaseball" class="link__text">
             숫자야구<span class="link__date">200119</span>
           </nuxt-link>
         </li>
         <li>
-          <nuxt-link to="/200120" class="link__text">
+          <nuxt-link to="/rockScissorsPaper" class="link__text">
             가위바위보 게임<span class="link__date">200120</span>
           </nuxt-link>
         </li>
         <li>
-          <nuxt-link to="/200121" class="link__text">
+          <nuxt-link to="/lotto" class="link__text">
             <span>로또</span><span class="link__date">200121</span>
           </nuxt-link>
         </li>
         <li>
-          <nuxt-link to="/200123" class="link__text">
+          <nuxt-link to="/tictactoe" class="link__text">
             <span>틱택토</span><span class="link__date">200123</span>
           </nuxt-link>
         </li>
         <li>
-          <nuxt-link to="/200124" class="link__text">
-            <span>틱택토-vuex</span><span class="link__date">200124</span>
+          <nuxt-link to="/tictactoeVuex" class="link__text">
+            <span>틱택토 - Vuex</span><span class="link__date">200124</span>
           </nuxt-link>
         </li>
       </ul>

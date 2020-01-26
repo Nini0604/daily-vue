@@ -11,7 +11,7 @@
 </template>
 
 <script>
-import TdComponent from '~/components/200123/TdComponent.vue'
+import TdComponent from '~/components/tictactoe/TdComponent.vue'
 export default {
   name: 'TrComponent',
   components: { TdComponent },

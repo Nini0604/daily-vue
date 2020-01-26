@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <NCard
+    <RecruitCard
       v-for="card in cards"
       :key="card.id"
       :title="card.title"
@@ -13,12 +13,12 @@
 </template>
 
 <script>
-import NCard from '~/components/190815/NCard.vue'
+import RecruitCard from '~/components/RecruitCard.vue'
 
 export default {
   name: 'App',
   components: {
-    NCard
+    RecruitCard
   },
   data() {
     return {

@@ -1,12 +1,12 @@
 <template>
   <div
-    class="n-card"
+    class="card"
     :class="[{'is-round':round,'is-shadow':shadow},'is-'+color]"
   >
-    <h2 class="n-card__title">
+    <h2 class="card__title">
       {{ title }}
     </h2>
-    <p class="n-card__description">
+    <p class="card__description">
       {{ description }}
     </p>
   </div>
@@ -15,7 +15,7 @@
 <script>
 
 export default {
-  name: 'NCard',
+  name: 'RecruitCard',
   props: {
     title: {
       type: String,
@@ -57,7 +57,7 @@ $gray-dark: #333;
   }
 }
 
-.n-card {
+.card {
   overflow: hidden;
   width: 300px;
   height: 400px;

@@ -14,7 +14,7 @@
 </template>
 
 <script>
-import FilteredListItem from '~/components/190812/FilteredListItem.vue'
+import FilteredListItem from '~/components/filteredCatagory/FilteredListItem.vue'
 export default {
   name: 'FilteredList',
   components: { FilteredListItem },

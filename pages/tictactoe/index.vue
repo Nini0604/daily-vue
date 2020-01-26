@@ -10,7 +10,7 @@
 
 <script>
 import EventBus from '~/assets/js/EventBus.js'
-import TableComponent from '~/components/200123/TableComponent.vue'
+import TableComponent from '~/components/tictactoe/TableComponent.vue'
 
 let checkedNum = 0
 export default {

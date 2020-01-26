@@ -14,7 +14,7 @@
 </template>
 
 <script>
-import TrComponent from '~/components/200123/TrComponent.vue'
+import TrComponent from '~/components/tictactoe/TrComponent.vue'
 export default {
   name: 'TableComponent',
   components: { TrComponent },

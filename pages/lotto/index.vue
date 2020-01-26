@@ -18,7 +18,7 @@
 </template>
 
 <script>
-import LottoBall from '~/components/200121/LottoBall.vue'
+import LottoBall from '~/components/LottoBall.vue'
 
 const timeout = []
 export default {

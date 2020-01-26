@@ -17,7 +17,7 @@
 <script>
 import { mapState, mapGetters } from 'vuex'
 import store, { CHANGE_TURN, CLICK_CELL, NO_WINNER, RESET_GAME, SET_WINNER } from '~/store/tictactoe.js'
-import TableComponent from '~/components/200124/TableComponent.vue'
+import TableComponent from '~/components/TableComponent.vue'
 
 export default {
   store,

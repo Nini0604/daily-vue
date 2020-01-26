@@ -18,7 +18,7 @@
 </template>
 
 <script>
-import FilteredArticles from '~/components/190807/FilteredArticles.vue'
+import FilteredArticles from '~/components/filteredSearh/FilteredArticles.vue'
 export default {
   components: { FilteredArticles },
   data() {

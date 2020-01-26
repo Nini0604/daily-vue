@@ -13,7 +13,7 @@
 </template>
 
 <script>
-import FilteredList from '~/components/190812/FilteredList.vue'
+import FilteredList from '~/components/filteredCatagory/FilteredList.vue'
 export default {
   components: { FilteredList },
   data() {
